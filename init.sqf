@@ -26,8 +26,8 @@ X_JIP = false;
 
 CHVD_allowNoGrass = false;
 CHVD_allowTerrain = false; // terrain option has been disabled out from the menu due to terrible code, this variable has currently no effect
-CHVD_maxView = 3500; // Set maximum view distance (default: 12000)
-CHVD_maxObj = 3500; // Set maximimum object view distance (default: 12000)
+CHVD_maxView = 6000; // Set maximum view distance (default: 12000)
+CHVD_maxObj = 6000; // Set maximimum object view distance (default: 12000)
 
 // versionName = ""; // Set in STR_WL_WelcomeToWasteland in stringtable.xml
 
@@ -50,7 +50,7 @@ if (!isDedicated) then
 	{
 		if (hasInterface) then // Normal player
 		{
-			9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+			9999 cutText ["Welcome to 40-1 A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
 
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
