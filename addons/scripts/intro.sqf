@@ -6,7 +6,7 @@ _messages = [
 	["40-1", "A3Wasteland"],
 	["Welcome", (name player)],
 	["A3Wasteland", worldName],
-	["Teamspeak", "ts.40-1.net"],
+	//["Teamspeak", "ts.40-1.net"],
 	["Website/Forums", "www.40-1.net"],
 	["Hint", "Mine Detectors Also Detect Spawn Beacons(Range 95m)."],
 	["Admin", "Admin cannot teleport or spawn cash/items we play the same as you plz remember this before you shout admin abuse."]
