@@ -95,6 +95,10 @@ if (hasInterface || isServer) then
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
+	[] execVM "addons\HvT\HvT.sqf";                        // High Value Target
+	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
+	[] execVM "addons\scripts\intro.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };

@@ -25,6 +25,9 @@ groupManagmentActive = false;
 pvar_PlayerTeamKiller = [];
 doCancelAction = false;
 
+//AJ Beacondetector
+BeaconScanInProgress = false;
+
 //Initialization Variables
 playerCompiledScripts = false;
 playerSetupComplete = false;
@@ -151,6 +154,8 @@ if (["A3W_survivalSystem"] call isConfigOn) then
 	[] execVM "client\functions\createVehicleStoreMarkers.sqf";
 	[] execVM "client\functions\createLegendMarkers.sqf";
 };
+
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"};
 
 A3W_clientSetupComplete = compileFinal "true";
 
